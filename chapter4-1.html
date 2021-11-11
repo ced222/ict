@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container4">
+    <!--parent container  -->
+    <div class="menubars">
+      <div class="titlebar">
+        <!--one child -->
+          <!--parent in a child-->
+        <div class="navchild"><div class="home"> <a href=index.html>Home</a></div></div>
+
+        <div class="navchild sub"><h3>Chapter 3:</h3></div>
+
+        <div class="navchild navhover"><a href="chapter3-1.html"><h4>3.1 - Backing up of data</h4></a>
+          <div class="dropdown-content">
+            <a href="chapter3-1.html#3-1-1">3.1.1 What is backing up of data?</a>
+            <a href="chapter3-1.html#3-1-2">3.1.2 Why back up data?</a>
+          </div></div>
+        <div class="navchild navhover"><a href="chapter3-2.html"><h4>3.2 - Types of access</h4></a>
+          <div class="dropdown-content">
+            <a href="chapter3-2.html#3-2-1">3.2.1 Serial access</a>
+            <a href="chapter3-2.html#3-2-2">3.2.2 Direct access</a>
+          </div></div>
+        <div class="navchild navhover"><a href="chapter3-3.html"><h4>3.3 - Secondary storage media</h4></a>
+          <div class="dropdown-content">
+            <a href="chapter3-3.html#3-3-1">3.3.1 Magnetic storage media</a>
+            <a href="chapter3-3.html#3-3-2">3.3.2 Optical storage media</a>
+            <a href="chapter3-3.html#3-3-3">3.3.3 Solid state storage media</a>
+          </div></div>
+        <div class="navchild sub"> <h3>Chapter 4:</h3></div>
+
+        <div class="navchild navhover"><a href="chapter4-1.html"><h4>4.1 - Network devices</h4></a>
+          <div class="dropdown-content">
+            <a href="chapter4-1.html#4-1-1">4.1.1 Network devices</a>
+            <a href="chapter4-1.html#4-1-2">4.1.2 Internet proto(IP) and media access control (MAC) addresses</a>
+            <a href="chapter4-1.html#4-1-3">4.1.3 Wi-Fi and Bluetooth</a>
+            <a href="chapter4-1.html#4-1-4">4.1.4 How to set up and configure a small network</a>
+            <a href="chapter4-1.html#4-1-6">4.1.6 Local area networks (LANs) and wide area networks (WANs)</a>
+            <a href="chapter4-1.html#4-1-7">4.1.7 Accessing the internet</a>
+          </div></div>
+        <div class="navchild navhover"><a href="chapter4-2.html"><h4>4.2 - Network security</h4></a>
+          <div class="dropdown-content">
+            <a href="chapter4-2.html#4-2-1">4.2.1 Network security</a>
+            <a href="chapter4-2.html#4-2-2">4.2.2 Authentication</a>
+            <a href="chapter4-2.html#4-2-3">4.2.3 Viruses</a>
+            <a href="chapter4-2.html#4-2-4">4.2.4 Data protection acts</a>
+            <a href="chapter4-2.html#4-2-5">4.2.5 Network communication</a>
+          </div></div>
+        <div class="navchild sub"><h3>Other:</h3></div>
+        <div class="navchild navhover"><h4 class="more">More</h4>
+        <div class="dropdown-content">
+          <a href="https://www.cambridgeinternational.org/">IGCSE Website</a>
+          <a href="https://searchcio.techtarget.com/definition/ICT-information-and-communications-technology-or-technologies">What is ICT?</a>
+          <a href="about-us.html">About us</A>
+        </div></div></div></div>
+        <div class="maincontent">
+          <div class="contentheadings">
+            <h2>4.1 Network Devices</h2>
+          </div>
+          <div class="contentcontainer">
+            <div id="div24">
+              <p>Most computer systems are now connected together in some way to form what is known as a <strong>network</strong>. This ranges from basic school/home networks of only a few computers (often set up to share resources such as printers or software) to large networks such as the <strong> internet </strong>, which effectively allows any computer connected to it to communicate with any other computer similarly connected.  </p>
+              <p>This chapter considers the types of network that exist and many of the features that are available because of networking. You will learn that devices such as <strong>hubs</strong> and <strong>switches</strong> are needed to distribute data within a network; that local area networks (<strong>LANs</strong>) can be connected together using <strong>bridges</strong>; and that devices such as <strong>modems</strong> and <strong>routers</strong> are needed to connect these LANs or single computers to external networks, such as the internet. </p>
+            </div>
+            <h4 id="4-1-1">4.1.1 Network devices</h4>
+            <div id="div25">
+              <div id="div25-1">
+                <h5>Modems </h5>
+                <p><strong>Modem</strong> means 'modulator demodulator' and is a device that converts (i.e. modulates) a computer's digital signal into an analogue signal for transmission over an existing telephone line. It also does the reverse process, in that it converts analogue signals from a telephone line into digital signals (demodulates), to enable the computer to process the data. </p>
+                <p>Modems are essentially used to allow computers to connect to networks (for example, the internet) over long distances using the existing telephone networks. </p>
+                <p><strong>Dial-up modems</strong> operate at transmission speeds of about 60 kilobits* per second, which is extremely slow by today's standards. </p>
+                <p class="small text">*60 kilobits 60000 bits. 1 bit refers to a binary digit and has the value 1 or O. </p>
+              </div>
+              <img id="div25-2" src="images/modem.png" alt="modem">
+            </div>
+            <div id="div26">
+              <p>Modern broadband or <strong>ADSL (asymmetric digital subscriber line)</strong> modems operate at up to 100 Megabits* per second (12.5 Mbytes/second) when using fibre-optic cables (although the old technology copper cables can usually only offer a maximum of 20 Mbits/second). The term 'asymmetric' actually means that the modem is faster at <strong>downloading</strong> data (i.e. receiving data) than it is at <strong>uploading data</strong> (i.e. sending data). </p>
+              <p class="smalltext">*1 byte 8 bits; 100 megabits 100 million bits. </p>
+              <p>Although ADSL modems still use the existing telephone network, unlike dial-up modems they do not tie up the line while accessing the internet — they can always be 'on', so internet access is available 24 hours if necessary, and the landline telephone can be used at the same time. ADSL modems can allow telephone conversations and internet traffic to occur at the same time because of the wide bandwidth signal used (different frequencies are used to transmit internet signals so they don't interfere with normal telephone traffic). Cable modems also exist, which allow cable television providers to offer internet access as well as receiving television signals. </p>
+            </div>
+            <div id="div27">
+              <div id="div27-1">
+                  <h5>Hubs</h5>
+                  <p><strong>Hubs</strong> are hardware devices that can have a number of devices or computers connected to them. They are often used to connect together a number of devices to form a LAN for example, a star network (see later). Its main task is to take any <strong>data packet</strong> (this is a group of data being transmitted) received at one of its ports and broadcast it to every computer in the network. This essentially means that using a hub is not a very secure or effcient method of data distribution. </p>
+                </div>
+              <img id="div27-2" src="images/hub.png" alt="hub">
+            </div>
+            <div id="div28">
+              <div id="div28-1">
+                <div id="div28-1a">
+                  <h5>Switches</h5>
+                  <p><strong>Switches</strong> are similar to hubs but are much more efficient in the way that they distribute data packets. As with hubs, they connect a number of devices or computers together to form a LAN. </p>
+                </div>
+                <img id="div28-1b" src="images/switches.png" alt="switches">
+              </div>
+                <div id="div28-2">
+                  <div id="div28-2a">
+                    <p>However, unlike a hub, the switch checks the data packet received and works out its destination address (or addresses) and sends the data to the appropriate computer(s) only. This makes using a switch a more secure way of distributing data.  </p>
+                    <p>Each device or computer on a network has a <strong>media access control (MAC) </strong>address that uniquely identifies it. Data packets sent to switches will have a MAC address identifying the source of the data and additional addresses identifring each device that should receive the data (see Section 4.1.2 for more on MAC addresses). </p>
+                  </div>
+
+                  <img id="div28-2b" src="images/switchesdiagram.png" alt="diagram showing how switches work">
+
+              </div>
+            </div>
+
+
+
+          <div id="div29">
+            <div id="div29-1">
+              <div id="div29-1a">
+                <h5>Bridge</h5>
+                <p>Bridges are devices that connect one LAN to another LAN that uses the same protocol (communication rules). They are often used to connect together different parts of a LAN so that they can function as a single LAN. </p>
+              </div>
+              <img id="div29-1b" src="images/bridge.png" alt="bridge">
+            </div>
+            <div id="div29-2">
+              <div id="div29-2a">
+                <p>Bridges tend to be used to interconnected LANs (or parts of LANs) since sending out every data packet to all possible destinations would quickly flood larger networks with unnecessary traffic. For this reason a router is used to communicate with other networks, such as the internet. </p>
+              </div>
+              <img id="div29-2b" src="images/bridgesdiagram.png" alt="bridge diagram" >
+          </div>
+
+          </div>
+          <div id="div30">
+            <div id="div30-1">
+              <div id="div30-1a">
+                <h5>Router</h5>
+                  <p><strong>Routers</strong> enable data packets to be routed between the different networks, for example to join a LAN to a wide area network (<strong>WAN</strong>). A router would typically have an internet cable plugged into it and several cables connecting to computers and other devices on the LAN. </p>
+              </div>
+              <img id="div30-1b" src="images/router.png" alt="router">
+            </div>
+            <div id="div30-2">
+              <img id="div30-2a" src="images/routerdiagram.png" alt="router diagram">
+              <div id="div30-2b">
+                <p>Broadband routers sit behind a firewall. The firewall protect the computers on a network. The router's main function is to transmit internet and transmission protocols between networks and also allow private networks to be connected together. </p>
+                <p>Routers inspect the data packets (see below) sent to it from any computer on any of the networks connected to it. Since every computer on the same network has the same part of an <strong>internet protocol (IP)</strong> address, the router is able to send the data packet to the appropriate switch and it will then be delivered using the MAC destination address (see Section 4.1.2). If the MAC address doesn't match any device on the network, it passes on to another switch on the same network until the appropriate device is found. </p>
+                <p><strong>Data packets</strong></p>
+                <p>The data is carried in the packet according to which protocol (set ofrules) is used. Packets of data usually contain the following information: </p>
+                <ul>
+                  <li>some form of header to identify the data packets</li>
+                  <li>the sender's IP address</li>
+                  <li>the reciever's IP address</li>
+                  <li>how many data packets make up the whole "message"</li>
+                  <li>the identity number of each packet</li>
+                </ul>
+                <p>This information allows the router to route a packet across a network to its correct destination and allows the data packets to be reassembled in their correct order according to identity number at the receiving station. </p>
+                <p>When a router receives a packet of data, it checks the destination IP address against the stored routing table. The routing table stores the MAC address of the device, the assigned IP address and the lease time the IP address is assigned for. The bits forming the destination IP address in the data packet are used to point to the correct route. The packet is sent to a number of routers until it reaches its final destination. </p>
+                <p class="smalltext">Note: MAC addreses and IP addreses are discussed in more detail later </p>
+              </div>
+            </div>
+          </div>
+          <div id="div31">
+            <h5>Other hardware </h5>
+            <p><strong>Gateway</strong></p>
+            <p>A <strong>gateway</strong> is a network point (or <strong>node</strong>) that acts as an entrance to another network. It is a key point for data on its way to or from other networks. All networks will have boundaries so that all communication within the network is conducted using devices such as switches or routers. If a network node needs to communicate outside its network, it needs to use a gateway.</p>
+            <p><strong>Network interface card (NIC)</strong></p>
+            <p>A <strong>network interface card (NIC)</strong> is needed to allow a device to connect to a network (for example, the internet). It is usually part of the device hardware and frequently contains the MAC address generated at the manufacturing stage. </p>
+            <p><strong>Network cables</strong></p>
+            <p>Even though many computer systems use Wi-Fi, <strong>network cables</strong> are still used because they have the following advantages over Wi-Fi: </p>
+            <ul>
+              <li>faster data transfer rates </li>
+              <li>can be more secure than wireless networks. </li>
+            </ul>
+            <p>The cables can be either copper or fibre optics — the latter offers higher data transfer rates and also better security (see notes on quantum cryptography). </p>
+          </div>
+
+            <h4 id="4-1-2">4.1.2 Internet protocal (IP) and media access control (MAC) addresses</h4>
+            <div id="div32">
+              <p>Each device on the internet is given a unique address known as its <strong>internet protocol (IP) address</strong>. This is a 32-bit number that is usually written in the form: </p>
+              <p id="higherindent">109.108.158.1 </p>
+              <p>A home computer is given an IP address when it connects to the internet. This is assigned by the ISP and is unique for that particular internet session. The only IP addresses that remain fairly unchanged are the web servers. An IP address can be used instead of typing in the full URL; for example, http://109.108.158.1 would take you straight to the device containing web page corresponding to this address.</p>
+            </div>
+            <div id="div33">
+              <h5>Differences between IP addresses and MAC addresses</h5>
+              <p>As indicated in Section 4.1.1, a MAC address is a unique number that identifies a device connected to the internet. So what is the difference between an IP address and a MAC address? The IP address gives the location of a device on the internet, whereas the MAC address identifies the device connected to the internet. </p>
+              <p>You can think of the IP as the address of the house you live in (it will have some unique way of identifying it, such as a postcode or zone code). Using this example, the MAC address can be thought of as a way of uniquely identifying each person living in that house. It is possible to move house (so your IP address will change) but the same people will be living in the new house (so their MAC address will remain unchanged). </p>
+            </div>
+            <h4 id="4-1-3">4.1.3 Wi-Fi and Bluetooth</h4>
+            <div id="div34">
+
+              <p>Both <strong>Wi-Fi</strong> and <strong>Bluetooth</strong> offer wireless communication between devices. They both use radio frequencies as the carrier of data transmission. </p>
+              <h5>How computers use Wi-Fi and Bluetooth to connect to networks </h5>
+              <p><strong>Wi-Fi</strong></p>
+              <p>A wireless transmitter (WAP) receives information from a network via its connection (e.g. a broadband connection if the internet is used). This transmitter converts the received information into radio waves and then transmits them. </p>
+              <p>A device (e.g. a computer) receives the radio waves via an installed wireless adaptor which allows it to download the information from the data source. This, of course, works in reverse when the device wishes to transmit data over the network. </p>
+              <p>Wi-Fi is best suited to operating full-scale networks since it offers much faster data transfer rates, better range and better security than Bluetooth. A WI-Fi-enabled device (such as a computer or smartphone) can access, for example, the internet wirelessly at any <strong>access point (AP)</strong> or <strong>hot spot</strong> up to 100m away. </p>
+              <p><strong>Bluetooth </strong></p>
+              <p>Bluetooth sends and receives radio waves in a band of 79 different frequencies (known as channels). These are all centred on a 2.45 GHz frequency. </p>
+              <p>Devices using Bluetooth automatically detect and connect to each other, but they don't interfere with other devices since each communicating pair uses a different channel (from the 79 options). </p>
+              <p>When a device wants to communicate, it picks one of the 79 channels at random. If the channel is already being used, it randomly picks another channel. <strong>This is known as spread-spectrum frequency hopping.</strong> </p>
+              <p>To further minimise the risks of interference with other devices, the communication pairs constantly change the frequencies (channels) they are using (several times a second). </p>
+              <p>Essentially, Bluetooth is useful: </p>
+              <ul>
+                <li>when transferring data between two or more devices that are very close together (&lt 30 metres distance)</li>
+                <li>when the speed of data transmission is not critical</li>
+                <li>for low-bandwidth applications (for example, when sending music files from a mobile phone to a headset). </li>
+              </ul>
+              <p>Bluetooth creates a secure <strong>wireless personal area network (WPAN)</strong> based on key encryption. </p>
+              <p>Table 4.1 summarises some of the differences between Wi-Fi and Bluetooth. </p>
+              <table cellspacing="0" id="table5">
+                <caption><strong>Table 4.1</strong> Differences between Wi-Fi and bluetooth</caption>
+                <thead>
+                  <tr>
+                    <td><strong>Feature</strong></td>
+                    <td><strong>Bluetooth</strong></td>
+                    <td class="table5rightcolumn"><strong>Wi-Fi</strong></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Transmission frequency used</td>
+                    <td>2.4GHz</td>
+                    <td class="table5rightcolumn">2.4, 3.6, 5.0GHz</td>
+                  </tr>
+                  <tr>
+                    <td>Data transfer rate (maximum)</td>
+                    <td>25 Mbits/second (~3.1 Mbytes/second)</td>
+                    <td class="table5rightcolumn">250 Mbits/second (~31 Mbytes/second)</td>
+                  </tr>
+                  <tr>
+                    <td>Maximum effective range (metres)</td>
+                    <td>30m</td>
+                    <td class="table5rightcolumn">100m (but can be obstructed by walls etc.,<br> reducing effective range to only a few metres)</td>
+                  </tr>
+                  <tr>
+                    <td>Maximum number of devices connceted</td>
+                    <td>Up to 7</td>
+                    <td class="table5rightcolumn">Depends on the router used (can be one device or many devices)</td>
+                  </tr>
+                  <tr>
+                    <td class="table5bottomrow">Type of data transmission security</td>
+                    <td class="table5bottomrow">Key matching encryption</td>
+                    <td class="table5bottomrow table5rightcolumn">WEP (wireless equivalent privacy) and WPA (Wi-Fi<br> protected access) are the most common security systems</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h4 id="4-1-4">4.1.4 How to set up and configure a small network</h4>
+            <div id="div35">
+              <div id="div35-1">
+                <p>Suppose you were asked to set up and configure a small network of 10 computers. You would need to consider the following points:</p>
+                <p>Apart from all the hardware and software, you would also have to think about doing the following: </p>
+                <ul>
+                  <li>setting up an IP account if internet access is required </li>
+                  <li>setting up the system (or buying appropriate hardware correctly configured) to allow for wireless connectivity</li>
+                  <li>configuring all the hardware and software so that they work correctly together </li>
+                  <li>if internet is required, ensuring that a high-speed broadband connection exists </li>
+                  <li>putting all the common software onto a server and also making sure that a network licence has been acquired so that all network users can make use of the software </li>
+                  <li>setting up privileges so that each user can only access their own area or common shared area </li>
+                  <li>setting up a network-manager-level of privilege do that they can monitor network usage, change passwords, etc. </li>
+                </ul>
+              </div>
+              <img id="div35-2" src="images/setupnetwork.png" alt="how to set up a network">
+            </div>
+            <h4 id="4-1-6">4.1.6 Local area networks (LANs) and wide area networks (WANs)</h4>
+            <div id="div36">
+              <div id="div36-1">
+                <div id="div36-1a">
+                  <h5>Local area networks (LANs) </h5>
+                  <p>These systems are usually within one building, or certainly not very far away from each other geographically. A typical LAN will consist of a number of computers and devices (for example, printers) that are connected to hubs or switches. One of the <strong>hubs</strong> or <strong>switches</strong> will usually be connected to a <strong>router</strong> and a<strong> modem</strong> (usually <strong>broadband</strong>) to allow the LAN to connect to the internet; in doing so it then becomes part of a <strong>WAN.</strong></p>
+                  <p><strong>Advantages</strong></p>
+                  <ul>
+                    <li>The sharing of resources (such as expensive peripherals and applications software). </li>
+                    <li>Ease of communication benveen users. </li>
+                    <li>A network administrator to control and monitor all aspects of the network (for example, changing passwords, monitoring internet use and so on). </li>
+                  </ul>
+                  <p><strong>Disadvantages</strong></p>
+                  <ul>
+                    <li>Easier spread of viruses throughout the whole network.</li>
+                    <li>Printer queues developing, which can be frustrating. </li>
+                    <li>Slower access to external networks, such as the internet.</li>
+                    <li>Increased security risk when compared to stand-alone computers. </li>
+                    <li>If the main server breaks down, in most cases the network will no longer function. </li>
+                  </ul>
+                </div>
+                <img id="div36-1b" src="images/wan.png" alt="wide area network diagram">
+              </div>
+              <div id="div36-2">
+                <div id="div36-2a">
+                  <h5>Wireless LANs (WLANs)</h5>
+                  <p><strong>Wireless LANs (WLANs)</strong> are similar to LANs but there are no wires or cables. In other words, they provide wireless network communications over fairly short distances (a few metres) using radio or infrared signals instead of cables. </p>
+                  <p> of cables. Devices, known as access points (APs) or wireless nodes, are connected into the wired network at fixed locations. Because of the limited range, most commercial LANs (for example, at a college campus or at an airport) need several APS to permit uninterrupted wireless communications. The APS use either <strong>spread spectrum technology</strong> (which is a wideband radio frequency with a range of about 1-2m) or <strong>infrared</strong> (which has a very short range, about 1—2 m, and is easily blocked; it therefore has a limited use). </p>
+                  <p>The AP receives and transmits data between the WLAN and the network structure. End-users access the WLAN through wireless LAN adapters that are built into the devices or are a plug-in module. </p>
+                  <p><strong>Advantages</strong></p>
+                  <ul>
+                    <li>All computers can access the same services and resources (such as printers, scanners, internet access) from anywhere within range of the APs. </li>
+                    <li>As there is no cabling there is a safety improvement and increased flexibility (since the user no longer has to remain at their desk). </li>
+                    <li>Adding new computers and devices is very easy (all that is required is a WLAN adapter) and the costs are reduced since extra cabling isn't needed. </li>
+                  </ul>
+                  <p><strong>Disadvantages </strong></p>
+                  <ul>
+                    <li>Security can be a big issue since anyone with a WLAN-enabled laptop can access a network if it can pick up a signal; it is therefore necessary to adopt complex data encryption techniques. </li>
+                    <li>There may be problems of interference, which can affect the signal. </li>
+                    <li>The data transfer rate is slower than in a wired LAN. </li>
+                  </ul>
+                </div>
+                <img id="div36-2b" src="images/wlan.png" alt="wireless LANs">
+              </div>
+            </div>
+
+            <h4 id="4-1-7">4.1.7 Accessing the internet</h4>
+            <div id="div37">
+              <p>The relative advantages and disadvantages of using mobile phones, tablets, laptops and desktop computers were discussed in Chapter 1. Some of the advantages and disadvantages of using these devices to access the internet are summarised below. </p>
+              <h5>Mobile phones and tablets </h5>
+
+                <img src="images/mobilephone.png" alt="mobile phones">
+
+              <p>The same comments also refer to tablets (and phablets) but, as they usually have bigger screens and keyboards, they have an advantage in that respect when compared to mobile phones. The other advantages and disadvantages are similar to mobile phones — it all depends on the screen size of the tablet being used. </p>
+              <h5>Laptops </h5>
+
+                <img src="images/laptop.png" alt="laptop">
+
+
+              <h5>Desktop computers</h5>
+
+                <img src="images/desktop.png" alt="desktop">
+
+
+            </div>
+
+
+
+        </div></div></div>
+</body>
+</html>
